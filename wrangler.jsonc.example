@@ -11,9 +11,9 @@
     "enabled": true
   },
   "vars": {
-    "APP_API_KEY": "a2b32d89-a3ad-4f80-8151-0af56ffaa2be",
-    "GROQ_API_KEY": "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",
-    "OPENROUTER_API_KEY": "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"
+    "APP_API_KEY": "",
+    "GROQ_API_KEY": "",
+    "OPENROUTER_API_KEY": ""
   }
 
   /**
