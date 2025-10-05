@@ -1,0 +1,26 @@
+{
+  "name": "cloudflare-workers-openapi",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "types": "wrangler types",
+    "db:execute:local": "wrangler d1 execute pluvia-ai-service --file=./schema.sql",
+    "db:execute:remote": "wrangler d1 execute pluvia-ai-service --file=./schema.sql --remote"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "chanfana": "^2.6.3",
+    "dayjs": "^1.11.13",
+    "hono": "^4.6.20",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250910.0",
+    "@types/node": "22.13.0",
+    "@types/service-worker-mock": "^2.0.4",
+    "wrangler": "^4.31.0"
+  }
+}
